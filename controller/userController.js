@@ -1,6 +1,6 @@
 // models
 const userModel = require("../model/User")
-const profileModel = require("../model/userProfile.js")
+const profileModel = require("../model/UserProfile.js");
 const accControlModel = require("../model/AccountControl")
 const verificationModel = require("../model/Verification.js")
 const metaModel = require("../model/UserMetadata.js")
