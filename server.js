@@ -26,9 +26,7 @@ const allowedOrigins = [
     process.env.DEVELOPMENT_ENV,
     process.env.FRONTEND_URL,
     process.env.BACKEND_URL,
-    "https://taskmaster-backend-production-65bd.up.railway.app"
 ];
-console.log(process.env.BACKEND_URL)
 
 app.use(
     cors({
